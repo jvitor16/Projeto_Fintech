@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --cor-primaria: #EFEFEF;
+    --cor-secundaria: #000;
+    --cor-terciaria: #FF5C00;
+    --cor-placeholder: #888888;
+    --cor-paragrafo: #363636;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 48px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding: 86px;
+    }
+}
+
+@media screen and (min-width: 1444px) {
+    body {
+        padding: 116px;
+    }
+}
